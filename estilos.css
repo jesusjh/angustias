@@ -1,0 +1,6 @@
+body{background:#808080;color:#fff;font-size:16px;postion:absolute;margin:0;text-align:center;}
+body header{background:#000;display:inline-block;postion:relative;hight:auto;z-index:1;width:98%;}
+body header #logo{height:140px;width:100%}
+#botones{margin-left:.1em;padding:0 4em;whidth:90%}
+.botone{font-size:1em}
+#inicio{color:#fff;float:left;margin-top:.7em}
