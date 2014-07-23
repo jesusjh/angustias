@@ -8,11 +8,11 @@ body header #logo{height:140px;width:100%}
 .ul{background:#f00}
 .href{font-size:.5em;text-align:left;opacity:1em;transition:1s}
 #contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
-#contenedor #izquierda{background:#f00;display:inline-block;float:left;margin:0 .3em;width:70%;}
+#contenedor #izquierda{display:inline-block;float:left;margin:0 .3em;width:70%;}
 #contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:90%}
-#contenedor #izquierda #noticias{background:#808080;display:inline-block;margin:.3em;postion:absolute;width:90%}
+#contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{background:#808080;display:inline-block;margin:.3em;postion:absolute;width:90%}
 #contenedor #lateral{background:#f00;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
-#contenedor #lateral #nav{background:#dde;display:inline-block;width:80%;}
+#contenedor #lateral #nav{display:inline-block;width:80%;}
 #contenedor #lateral #nav ul{display:inline-block;text-align:left;}
 #contenedor #lateral #nav ul a{font-size:.5em}
 #contenedor #pie{background:#000;display:inline-block;width:100%;}
@@ -26,7 +26,8 @@ body{margin:0 auto;max-width:98%}
 #contenedor h2{font-size:1.4em}
 #contenedor #izquierda{padding:.4em .5em;vertical-align:top;width:60%;}
 #contenedor #izquierda #convocatorias{width:45%}
-#contenedor #izquierda #noticias{width:45%}
+#contenedor #izquierda #noticias,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{width:45%}
+#contenedor #izquierda #cronicas{width:100%}
 #contenedor #lateral #nav{list-style-type:none}
 margin 0px{padding:0}
 #contenedor #lateral #nav{padding:.3em}
