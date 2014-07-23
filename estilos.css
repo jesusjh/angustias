@@ -1,7 +1,36 @@
 body{background:#808080;color:#fff;font-size:16px;postion:absolute;margin:0;text-align:center;}
 body header{background:#000;display:inline-block;postion:relative;hight:auto;z-index:1;width:98%;}
 body header #logo{height:140px;width:100%}
-#botones{margin-left:.1em;padding:0 4em;whidth:90%}
+#botones{background:#2f4953;margin-left:.1em;padding:0 4em;whidth:90%}
+.section{background:#2f4953}
 .botone{font-size:1em}
 #inicio{color:#fff;float:left;margin-top:.7em}
-.href{text-align:left}
+.ul{background:#f00}
+.href{font-size:.5em;text-align:left;opacity:1em;transition:1s}
+#contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
+#contenedor #izquierda{background:#f00;display:inline-block;float:left;margin:0 .3em;width:70%;}
+#contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:90%}
+#contenedor #izquierda #noticias{background:#808080;display:inline-block;margin:.3em;postion:absolute;width:90%}
+#contenedor #lateral{background:#f00;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
+#contenedor #lateral #nav{background:#dde;display:inline-block;width:80%;}
+#contenedor #lateral #nav ul{display:inline-block;text-align:left;}
+#contenedor #lateral #nav ul a{font-size:.5em}
+#contenedor #pie{background:#000;display:inline-block;width:100%;}
+#contenedor #pie h2{color:#fff;font-size:1em}
+#contenedor #pie #enlaces{display:inline-block;font-size:1.1em;width:80%;}
+#contenedor #pie #enlaces h3{border-bottom:1px solid #fff;font-size:1em;color:#fff;text-align:left;left:0;width:90%}
+#contenedor #pie #enlaces a{color:#fff;font-family:"Lobster",Arial;padding:.5em}
+#contenedor #pie #enlaces a:hover{color:#2c8cf7}
+@media screen and (min-width:768px){&{text-decoration:none;text-transform:uppercase;text-align:left;display:inline-block;padding:10px 10px 10px 20px}
+body{margin:0 auto;max-width:98%}
+#contenedor h2{font-size:1.4em}
+#contenedor #izquierda{padding:.4em .5em;vertical-align:top;width:60%;}
+#contenedor #izquierda #convocatorias{width:45%}
+#contenedor #izquierda #noticias{width:45%}
+#contenedor #lateral #nav{list-style-type:none}
+margin 0px{padding:0}
+#contenedor #lateral #nav{padding:.3em}
+#contenedor #lateral #nav ul{background-color:#666;display:inline-block;padding:.6em;width:60%}
+#contenedor #lateral #nav ul a{color:#ccc;font-size:1em}
+#contenedor #lateral #nav ul a:hover{background:#000;border-left:10px solid #333;color:#fff;display:inline-block;text-transform-right:1s}
+}

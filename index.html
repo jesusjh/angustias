@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hermandad Virgen de las Angustias, patrona de Granada</title>
     <meta name="description" content="Pontifica y Real Hermandad Sacramental de Ntra. Sra. de las Angustias Patrona de Granada y Archidiocesis." />
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="estilos.css" />
+    <link href='http://fonts.googleapis.com/css?family=Arimo|Lobster' rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/gif" href="animated_favicon1.gif">
     <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body>
+  <body oncontextmenu='return false' onkeydown='return false'>
     <header id="cabecera">
         <img src="img/logo/logo.png" id="logo">
     </header>
@@ -17,13 +21,13 @@
         <nav class="top-bar" data-topbar id="botones">
             <ul class="title-area">
               <li class="name">
-                <a href="#" id="inicio">Inicio</a>
+                <a href="index.html" id="inicio">Inicio</a>
               </li>
               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
               <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
 
-            <section class="top-bar-section">
+            <section class="top-bar-section" class="section">
             <!-- Right Nav Section -->
             <ul>
               <li class="active small">
@@ -136,6 +140,69 @@
             </section>
         </nav> 
       </div>
+      <section id="contenedor">
+          <articule id="izquierda">
+              <articule id="convocatorias">
+                  <h2>Convocatorias</h2>
+              </articule>
+              <articule id="noticias">
+                  <h2>noticias</h2>
+              </articule>
+          </articule>
+          <section id="lateral">
+                <articule id="nav">
+                    <ul>
+                      <a href="#">Obra Solcial</a>
+                      <br>
+                      <a href="#">Museo</a>
+                      <br>
+                      <a href="#" title="Hipólito llanes">Certamen de Pintura</a>
+                      <br>
+                      <a href="#">Archivo</a>
+                      <br>
+                      <a href="#">Estudiar y Coservar</a>
+                      <br>
+                      <a href="#">Voluntariado</a>
+                      <br>
+                      <a href="#">Formación</a>
+                      <br>
+                      <a href="#">Especiales</a>
+                      <br>
+                    </ul>
+                </articule>
+          </section>
+          <footer id="pie">
+            <h2>Pontifica y Real Hermandad Sacramental de Ntra. Sra. de las Angustias Patrona de Granada y Archidiocesis.</h2>
+              <articule id="enlaces">
+                <h3>Enlaces Destacados</h3>
+                  <a href="#">Basilica</a>
+                  <a href="#">Arzobispado</a>
+                  <a href="#">Papa Francisco</a>
+                  <a href="#">Liturgia Dominical</a>
+                  <a href="#">Federacion de Cofradias</a>
+                  <a href="#">Prensa</a>
+                  <a href="#">Rosario</a>
+                  <a href="#">Alhambra</a>
+                  <a href="#">Cautivo</a>
+              </articule>
+          </footer>
+      </section>
+    </div>
+    <script language="Javascript">
+             document.oncontextmenu = function() {
+                return false
+             }
+
+                else if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+                   alert(msg); //- Si no quieres asustar al usuario que utiliza IE,  entonces quita esta linea...
+                                  //- Aunque realmente se lo merezca...
+                return false;
+                }
+             return true;
+            }
+            document.onmousedown = right;
+        </script>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
 
