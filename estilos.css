@@ -7,22 +7,22 @@
 body{background:#808080;color:#fff;font-family:"Open Sans",Arial;font-size:16px;postion:absolute;margin:0;text-align:center;}
 body header{background:#000;display:inline-block;postion:relative;hight:auto;z-index:1;width:98%;}
 body header #logo{height:140px;width:100%}
-#botones{background:#2f4953;margin-left:.1em;padding:0 4em;whidth:90%}
+#botones{background:#2f4953;margin-left:.1em;padding:0 4em;whidth:100%}
 .section{background:#2f4953}
 #ul{background:#f00}
 .botone{font-size:1em}
 #inicio{color:#fff;float:left;margin-top:.7em}
 .ul{background:#f00}
-.href{font-size:.5em;text-align:left;opacity:1em;transition:1s}
+.href{font-size:.2em;text-align:left;opacity:1em;transition:1s;width:10px}
 #contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
 #contenedor #izquierda{display:inline-block;float:left;margin:0 .3em;width:70%;}
 #contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:90%}
 #contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{background:#808080;display:inline-block;margin:.3em;postion:absolute;width:90%}
-#contenedor #lateral{background:#f00;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
+#contenedor #lateral{background:#c5c6c6;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
 #contenedor #lateral #nav{display:inline-block;width:80%;}
 #contenedor #lateral #nav ul{display:inline-block;text-align:left;}
 #contenedor #lateral #nav ul a{font-size:.5em}
-#contenedor #lateral #redes{background:#26758a;display:inline-block;text-align:left;padding:0 .3em;postion:absolute;verticlal-align:top;width:100%;}
+#contenedor #lateral #redes{background:#c5c6c6;display:inline-block;text-align:left;padding:0 .3em;postion:absolute;verticlal-align:top;width:100%;}
 #contenedor #lateral #redes #text{font-size:.6em}
 #contenedor #lateral #redes .sociales{display:inline-block;padding:.3em;width:30%}
 #contenedor #lateral #boletin{display:inline-block;padding:.3em;width:100%;}
