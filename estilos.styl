@@ -60,35 +60,27 @@ body
 			height 140px
 			width 100%
 
-#botones 
-	background #2f4953
-	margin-left 0.1em
-	padding 0em 4em
-	whidth 100%
+.top-bar .title-area
+	background #6d5bc2
 
-.section
-	background #2f4953
+#navegador
+	background #6d5bc2
+#navegador a 
+	font-family "Lobster", Arial
 
-#ul
-	background red
-
-.botone
-	font-size 1.0em
-
-#inicio
-	color white
-	float left
-	margin-top 0.7em
-
-.ul
-	background red
-
-.href
-	font-size 0.2em
-	text-align left
-	opacity 1em
-	transition 1s
-	width 10px
+#navegador a:hover
+	color yellow
+	text-shadow: 	0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1),
+					0px 0px 20px rgba(0,255,0,1),
+					0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1),
+					0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1), 
+					0px 0px 20px rgba(0,255,0,1),
+					0px 0px 20px rgba(0,255,0,1);
 
 #contenedor
 	background white
@@ -101,6 +93,7 @@ body
 		display inline-block
 		float left
 		margin 0em 0.3em
+		verticlal-align top
 		width 70%
 
 		#convocatorias
@@ -111,12 +104,87 @@ body
 			postion absolute
 			width 90%
 
-		#noticias, #cronicas, #calendario, #galeria
+		#noticias, #cronicas, #calendario, #galeria, #directo
 			background grey
 			display inline-block
 			margin 0.3em
+			padding 0.1em
 			postion absolute
 			width 90%
+
+		#galeria
+			padding 0.4em
+
+			.slider {
+				width: 700px;
+				margin: 0 auto;
+			}
+			.slider div.images {
+				float: right;
+				position: relative;
+				width: 700px;
+				height: 300px;
+				overflow: hidden;
+			}
+			.slider div.images div {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				background: black;
+				z-index: 1;
+			}
+			.slider div.images div img {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			.slider div.images div.active {
+				z-index: 2;
+			}
+			.slider div.images div.animate {
+				transition: left 400ms;
+				-moz-transition: left 400ms;
+				-webkit-transition: left 400ms;
+				-ms-transition: left 400ms;
+				-o-transition: left 400ms;
+				z-index: 2;
+			}
+			.slider div.images div.next {
+				left: 100%;
+			}
+			.slider div.images div.prev {
+				left: -100%;
+			}
+			.slider div.images div.center {
+				left: 0;
+			}
+			.slider div.actions {
+				text-align: center;
+				padding: 5px 0;
+			}
+			.slider div.actions a {
+				display: inline-block;
+				margin: 0 5px;
+				outline: none;
+				border: #CCC solid 1px;
+				border-radius: 5px;
+				font-size: 10px;
+				color: #333;
+				line-height: 100%;
+				text-decoration: none;
+				padding: 4px 10px;
+				transition: background-color 500ms;
+				-moz-transition: background-color 500ms;
+				-webkit-transition: background-color 500ms;
+				-ms-transition: background-color 500ms;
+				-o-transition: background-color 500ms;
+			}
+			.slider div.actions a:hover {
+				background: #CCC;
+			}
 
 	#lateral
 		background #c5c6c6
@@ -128,14 +196,15 @@ body
 
 		#nav 
 			display inline-block
-			width 80%
+			width 100%
 
 			ul
 				display inline-block
 				text-align left
 
 				a 
-					font-size 0.5em
+					font-family "Lobster", Arial
+					font-size 0.2em
 
 		#redes
 			background #c5c6c6
@@ -198,7 +267,18 @@ body
 				padding 0.5em
 
 			a:hover
-				color #2c8cf7
+				color yellow
+				text-shadow: 	0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1),
+								0px 0px 20px rgba(0,255,0,1),
+								0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1),
+								0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1), 
+								0px 0px 20px rgba(0,255,0,1),
+								0px 0px 20px rgba(0,255,0,1);
 
 
 		
