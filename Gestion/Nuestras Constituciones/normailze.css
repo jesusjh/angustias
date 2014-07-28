@@ -1,0 +1,425 @@
+/ *! normalize.css v3.0.1 | MIT License | git.io / normalizar * /
+
+/ **
+ * 1. Establezca familia de fuentes predeterminada para sans-serif.
+ * 2. Prevenir iOS ajustar el tamaño del texto después de un cambio de orientación, sin desactivar
+ * Zoom usuario.
+ * /
+
+HTML {
+  font-family: sans-serif; / * 1 * /
+  -Ms-text-size-adjust: 100%; / * 2 * /
+  -Webkit-text-size-adjust: 100%; / * 2 * /
+}
+
+/ **
+ * El margen Remove defecto.
+ * /
+
+body {
+  margin: 0;
+}
+
+/ * Definiciones de visualización HTML5
+   ================================================== ======================== * /
+
+/ **
+ * Pantalla `correcta bloque` no definido para cualquier elemento HTML5 en Internet Explorer 8.9.
+ * Pantalla `correcta bloque` no definido para `detalles` o `resumen` en IE 10/11 y Firefox.
+ * Pantalla `correcta bloque` no definido para `principal 'en IE 11.
+ * /
+
+artículo,
+de lado,
+detalles,
+figcaption,
+figura,
+pie de página,
+cabecera,
+hgroup,
+principal,
+nav,
+sección,
+Resumen {
+  display: block;
+}
+
+/ **
+ * 1. Pantalla correcta `inline-block` no se define en el IE 8/9.
+ * 2. Normalizar alineación vertical del progreso del `` en Chrome, Firefox y Opera.
+ * /
+
+de audio,
+lienzo,
+progreso,
+vídeo {
+  display: inline-block; / * 1 * /
+  vertical-align: baseline; / * 2 * /
+}
+
+/ **
+ * Evitar que los navegadores modernos muestre `audio` sin controles.
+ * Retire el exceso de altura en iOS 5 dispositivos.
+ * /
+
+audio: no (controles []) {
+  display: none;
+  Altura: 0;
+}
+
+/ **
+ * Dirección `[oculto]` no labrar presente en IE 8/9/10.
+ * Ocultar el elemento `template` en IE 9.8.11, Safari y Firefox <22.
+ * /
+
+[Escondido],
+plantilla {
+  display: none;
+}
+
+/ * Links
+   ================================================== ======================== * /
+
+/ **
+ * Eliminar el color de fondo gris de enlaces activos en IE 10.
+ * /
+
+un {
+  fondo: transparente;
+}
+
+/ **
+ * Mejorar la legibilidad cuando enfocado y también del ratón se cernía en todos los navegadores.
+ * /
+
+un activo,
+a: hover {
+  Esquema: 0;
+}
+
+/ * Semántica de nivel de texto
+   ================================================== ======================== * /
+
+/ **
+ * Estilo de dirección no presente en IE 8/9/10/11, Safari y Chrome.
+ * /
+
+abbr [título] {
+  border-bottom: 1px de puntos;
+}
+
+/ **
+ * Estilo de Dirección en `` más audaz en Firefox 4 +, Safari y Chrome.
+ * /
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/ **
+ * Estilo de dirección no presente en Safari y Chrome.
+ * /
+
+dfn {
+  font-style: italic;
+}
+
+/ **
+ * Dirección `` h1 font-size y el margen variable dentro de la sección `` y `artículo`
+ * Contextos en Firefox 4 +, Safari y Chrome.
+ * /
+
+h1 {
+  font-size: 2em;
+  margen: 0.67em 0;
+}
+
+/ **
+ * Estilo de dirección no presente en IE 8/9.
+ * /
+
+mark {
+  fondo: # ff0;
+  color: # 000;
+}
+
+/ **
+ * Dirección tamaño de la fuente inconsistente y variable en todos los navegadores.
+ * /
+
+pequeño {
+  font-size: 80%;
+}
+
+/ **
+ * Prevenir `sub` y `sup` afectando `line-height 'en todos los navegadores.
+ * /
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top:-0.5em;
+}
+
+sub {
+  inferior:-0.25em;
+}
+
+/ * Contenido incrustado
+   ================================================== ======================== * /
+
+/ **
+ * Eliminar la frontera cuando dentro `a` elemento en IE 8/9/10.
+ * /
+
+img {
+  fronteriza: 0;
+}
+
+/ **
+ * Desbordamiento correcta no oculta en IE 9/10/11.
+ * /
+
+svg: not (: root) {
+  overflow: hidden;
+}
+
+/ * Contenido Agrupación
+   ================================================== ======================== * /
+
+/ **
+ * El margen no está presente en el IE 8/9 y Safari Dirección.
+ * /
+
+la figura {
+  margen: 1 em 40px;
+}
+
+/ **
+ * Dirección diferencias entre Firefox y otros navegadores.
+ * /
+
+hr {
+  -Moz-box-sizing: Contenido de la caja;
+  cuadro de dimensionamiento: Contenido de la caja;
+  Altura: 0;
+}
+
+/ **
+ * Contener desbordamiento en todos los navegadores.
+ * /
+
+pre {
+  overflow: auto;
+}
+
+/ **
+ * Dirección em extraña `` unidad prestación tamaño de la letra en todos los navegadores.
+ * /
+
+código,
+kbd,
+pre,
+samp {
+  font-family: monospace, espacio sencillo;
+  font-size: 1em;
+}
+
+/ * Formularios
+   ================================================== ======================== * /
+
+/ **
+ * Limitación conocida: por defecto, Chrome y Safari en OS X permite muy limitado
+ * Estilo de 'seleccione `, a menos que una propiedad` frontera `está establecido.
+ * /
+
+/ **
+ * 1. Corregir el color no se hereda.
+ * Problema conocido: afecta el color de los elementos de movilidad reducida.
+ * 2. Propiedades de la fuente correcta no se heredan.
+ * 3. Márgenes de direcciones definidas de manera diferente en Firefox 4 +, Safari y Chrome.
+ * /
+
+botón,
+de entrada,
+optgroup,
+seleccionar,
+textarea {
+  color: heredar; / * 1 * /
+  fuente: heredar; / * 2 * /
+  margin: 0; / * 3 * /
+}
+
+/ **
+ * Dirección `desbordamiento` en `oculto` en IE 8/9/10/11.
+ * /
+
+botón {
+  overflow: visible;
+}
+
+/ **
+ * Dirección inconsistente herencia `text-transform 'para el botón` `y` seleccione `.
+ * Todos los demás elementos de control de formulario no heredan text-transform valores ``.
+ * Corregir `botón` herencia de estilos en Firefox, IE 8/9/10/11 y Opera.
+ * Corregir `seleccione` herencia de estilos en Firefox.
+ * /
+
+botón,
+seleccione {
+  text-transform: ninguno;
+}
+
+/ **
+ * 1. Evite el error en WebKit de Android 4.0. * Donde (2) destruye audio nativo ``
+ * Y `controles de vídeo`.
+ * 2. Incapacidad correcta para el estilo `tipos de entrada se puede hacer clic en` iOS.
+ * 3. Mejorar la usabilidad y consistencia de estilo del cursor entre los de tipo imagen
+ * `input` y otros.
+ * /
+
+botón,
+entrada HTML [type = "button"], / * 1 * /
+input [type = "reset"],
+input [type = "submit"] {
+  -Webkit-apariencia: Botón; / * 2 * /
+  cursor: pointer; / * 3 * /
+}
+
+/ **
+ * Restablecer cursor predeterminado para los elementos de movilidad reducida.
+ * /
+
+botón [desactivado],
+entrada HTML [desactivado] {
+  cursor: default;
+}
+
+/ **
+ * Retire el acolchado interior y frontera en Firefox 4 +.
+ * /
+
+botón ::-moz-focus-interior,
+Entrada ::-moz-focus-interna {
+  fronteriza: 0;
+  padding: 0;
+}
+
+/ **
+ * Dirección de Firefox 4 + entorno `line-height` on `input` usando `! 'Importante en
+ * La hoja de estilo UA.
+ * /
+
+de entrada {
+  line-height: normal;
+}
+
+/ **
+ * Se recomienda que usted no trate de estilo de estos elementos.
+ * Aplicación de Firefox no respeta cuadro de dimensionamiento, el relleno o el ancho.
+ *
+ * 1. Cuadro Dirección dimensionamiento conjunto de `contenido`-box en IE 8/9/10.
+ * 2. Retire el exceso de relleno en IE 8/9/10.
+ * /
+
+input [type = "checkbox"],
+input [type = "radio"] {
+  cuadro de dimensionamiento: caja de las fronteras; / * 1 * /
+  padding: 0; / * 2 * /
+}
+
+/ **
+ * Fijar el estilo del cursor para los botones de incremento / decremento de Chrome. Por cierto
+ * Los valores de `font-size` del `input ', hace que el estilo del cursor del
+ * Botón de decremento para cambiar de `default` a `` texto.
+ * /
+
+input [type = "número"] ::-webkit-spin-botón interior,
+input [type = "número"] ::-webkit-exterior-spin-button {
+  altura: auto;
+}
+
+/ **
+ * 1. Dirección `apariencia` set `a` searchField en Safari y Chrome.
+ * 2. Dirección `cuadro de dimensionamiento` set `de frontera-box 'en Safari y Chrome
+ * (Incluya `-moz` a prueba de futuro).
+ * /
+
+input [type = "search"] {
+  -Webkit-aspecto: campo de texto; / * 1 * /
+  -Moz-box-sizing: Contenido de la caja;
+  -Webkit-box-sizing: Contenido de la caja; / * 2 * /
+  cuadro de dimensionamiento: Contenido de la caja;
+}
+
+/ **
+ * Retire el acolchado interior y buscar el botón cancelar en Safari y Chrome en OS X.
+ * Safari (pero no Chrome) Golpea el botón de cancelar cuando la entrada de búsqueda tiene
+ * Padding (y el aspecto `` campo de texto).
+ * /
+
+input [type = "search"] ::-webkit-search-cancelar-botón,
+input [type = "search"] ::-webkit-search-decoración {
+  -Webkit-aspecto: ninguno;
+}
+
+/ **
+ * Definir las fronteras consistente, el margen y el relleno.
+ * /
+
+fieldset {
+  border: 1px solid # c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/ **
+ * 1. Correcta `colores` no ser hereditario en el IE 8/9/10/11.
+ * 2. Remueva la curia para que la gente no se enganchen a cabo si fuera cero fieldsets.
+ * /
+
+leyenda {
+  fronteriza: 0; / * 1 * /
+  padding: 0; / * 2 * /
+}
+
+/ **
+ * Eliminar default barra de desplazamiento vertical en el IE 8/9/10/11.
+ * /
+
+textarea {
+  overflow: auto;
+}
+
+/ **
+ * No heredarán el `font-weight '(aplicado por una regla más arriba).
+ * NOTA: el valor por defecto no puede ser cambiado de manera segura en Chrome y Safari en OS X.
+ * /
+
+optgroup {
+  font-weight: bold;
+}
+
+/ * Cuadros
+   ================================================== ======================== * /
+
+/ **
+ * Eliminar la mayor separación entre las celdas de la tabla.
+ * /
+
+tabla {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
