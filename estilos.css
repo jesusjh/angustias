@@ -15,6 +15,7 @@ body header #logo{height:140px;width:100%}
 #contenedor #izquierda{display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:70%;}
 #contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:80%}
 #contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria,#contenedor #izquierda #directo{background:#808080;display:inline-block;margin:.3em;padding:.1em;postion:absolute;width:90%;}
+#contenedor #izquierda #noticias #item-calendario,#contenedor #izquierda #cronicas #item-calendario,#contenedor #izquierda #calendario #item-calendario,#contenedor #izquierda #galeria #item-calendario,#contenedor #izquierda #directo #item-calendario{width:90%}
 #contenedor #izquierda #noticias .slider,#contenedor #izquierda #cronicas .slider,#contenedor #izquierda #calendario .slider,#contenedor #izquierda #galeria .slider,#contenedor #izquierda #directo .slider{width:100%;margin:0 auto}
 #contenedor #izquierda #noticias .slider div.images,#contenedor #izquierda #cronicas .slider div.images,#contenedor #izquierda #calendario .slider div.images,#contenedor #izquierda #galeria .slider div.images,#contenedor #izquierda #directo .slider div.images{position:relative;width:100%;height:300px;overflow:hidden}
 #contenedor #izquierda #noticias .slider div.images div .img,#contenedor #izquierda #cronicas .slider div.images div .img,#contenedor #izquierda #calendario .slider div.images div .img,#contenedor #izquierda #galeria .slider div.images div .img,#contenedor #izquierda #directo .slider div.images div .img{width:100%}
@@ -49,9 +50,11 @@ body header #logo{height:140px;width:100%}
 body{margin:0 auto;max-width:98%}
 #contenedor h2{font-size:1.4em}
 #contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:70%;}
-#contenedor #izquierda #convocatorias{width:47%}
+#contenedor #izquierda #convocatorias{float:left;width:47%}
 #contenedor #izquierda #noticias,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{width:47%}
 #contenedor #izquierda #noticias{float:right}
+#contenedor #izquierda #galeria{float:right}
+#contenedor #izquierda #calendario{float:left}
 #contenedor #izquierda #cronicas{width:100%}
 #contenedor #izquierda #directo{width:100%}
 #contenedor #lateral #nav{list-style-type:none}
