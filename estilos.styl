@@ -83,34 +83,50 @@ body
 					0px 0px 20px rgba(0,255,0,1);
 
 #contenedor
-	background white
+	background grey
 	display inline-block
 	postion relativen
 	width 98%
 		
 
 	#izquierda
+		background white
 		display inline-block
 		float left
 		margin 0em 0.3em
 		verticlal-align top
-		width 70%
+		width 80%
+
+		#directo
+			width 90%
+
+			#video
+				width 100%
 
 		#convocatorias
-			background grey
 			display inline-block
 			font-weight normal
 			margin 0.3em
 			postion absolute
 			width 80%
 
+			h2
+				border-bottom 1px solid black
+				text-align left
+				width 50%
+
 		#noticias, #cronicas, #calendario, #galeria, #directo
-			background grey
 			display inline-block
 			margin 0.3em
 			padding 0.1em
 			postion absolute
 			width 90%
+
+			h2
+				border-bottom 1px solid black
+				text-align left
+				float left
+				width 50%
 
 			#item-calendario
 				width 90%
@@ -194,7 +210,7 @@ body
 		float right
 		postion relative
 		text-decoration none
-		width 25%
+		width 20%
 
 		#nav 
 			display inline-block
@@ -239,6 +255,20 @@ body
 
 			.formulario
 				display none
+
+		#virtual
+			background red
+			display inline-block
+			height auto
+			position relative
+			width 100%
+
+			
+
+			h2
+				color white
+				float left
+				font-size 0.8em
 
 
 	#pie

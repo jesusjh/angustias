@@ -11,10 +11,14 @@ body header #logo{height:140px;width:100%}
 #navegador{background:#6d5bc2}
 #navegador a{font-family:"Lobster",Arial}
 #navegador a:hover{color:#ff0;text-shadow:0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0}
-#contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
-#contenedor #izquierda{display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:70%;}
-#contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:80%}
-#contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria,#contenedor #izquierda #directo{background:#808080;display:inline-block;margin:.3em;padding:.1em;postion:absolute;width:90%;}
+#contenedor{background:#808080;display:inline-block;postion:relativen;width:98%;}
+#contenedor #izquierda{background:#fff;display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:80%;}
+#contenedor #izquierda #directo{width:90%;}
+#contenedor #izquierda #directo #video{width:100%}
+#contenedor #izquierda #convocatorias{display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:80%;}
+#contenedor #izquierda #convocatorias h2{border-bottom:1px solid #000;text-align:left;width:50%}
+#contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria,#contenedor #izquierda #directo{display:inline-block;margin:.3em;padding:.1em;postion:absolute;width:90%;}
+#contenedor #izquierda #noticias h2,#contenedor #izquierda #cronicas h2,#contenedor #izquierda #calendario h2,#contenedor #izquierda #galeria h2,#contenedor #izquierda #directo h2{border-bottom:1px solid #000;text-align:left;float:left;width:50%}
 #contenedor #izquierda #noticias #item-calendario,#contenedor #izquierda #cronicas #item-calendario,#contenedor #izquierda #calendario #item-calendario,#contenedor #izquierda #galeria #item-calendario,#contenedor #izquierda #directo #item-calendario{width:90%}
 #contenedor #izquierda #noticias .slider,#contenedor #izquierda #cronicas .slider,#contenedor #izquierda #calendario .slider,#contenedor #izquierda #galeria .slider,#contenedor #izquierda #directo .slider{width:100%;margin:0 auto}
 #contenedor #izquierda #noticias .slider div.images,#contenedor #izquierda #cronicas .slider div.images,#contenedor #izquierda #calendario .slider div.images,#contenedor #izquierda #galeria .slider div.images,#contenedor #izquierda #directo .slider div.images{position:relative;width:100%;height:300px;overflow:hidden}
@@ -29,7 +33,7 @@ body header #logo{height:140px;width:100%}
 #contenedor #izquierda #noticias .slider div.actions,#contenedor #izquierda #cronicas .slider div.actions,#contenedor #izquierda #calendario .slider div.actions,#contenedor #izquierda #galeria .slider div.actions,#contenedor #izquierda #directo .slider div.actions{text-align:center;padding:5px 0}
 #contenedor #izquierda #noticias .slider div.actions a,#contenedor #izquierda #cronicas .slider div.actions a,#contenedor #izquierda #calendario .slider div.actions a,#contenedor #izquierda #galeria .slider div.actions a,#contenedor #izquierda #directo .slider div.actions a{display:inline-block;margin:0 5px;outline:none;border:#ccc solid 1px;border-radius:5px;font-size:10px;color:#333;line-height:100%;text-decoration:none;padding:4px 10px;transition:background-color 500ms;-moz-transition:background-color 500ms;-webkit-transition:background-color 500ms;-ms-transition:background-color 500ms;-o-transition:background-color 500ms}
 #contenedor #izquierda #noticias .slider div.actions a:hover,#contenedor #izquierda #cronicas .slider div.actions a:hover,#contenedor #izquierda #calendario .slider div.actions a:hover,#contenedor #izquierda #galeria .slider div.actions a:hover,#contenedor #izquierda #directo .slider div.actions a:hover{background:#ccc}
-#contenedor #lateral{background:#c5c6c6;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
+#contenedor #lateral{background:#c5c6c6;display:inline-block;float:right;postion:relative;text-decoration:none;width:20%;}
 #contenedor #lateral #nav{display:inline-block;width:100%;}
 #contenedor #lateral #nav ul{display:inline-block;text-align:left;}
 #contenedor #lateral #nav ul a{font-family:"Lobster",Arial;font-size:.2em}
@@ -40,6 +44,8 @@ body header #logo{height:140px;width:100%}
 #contenedor #lateral #boletin a{color:#fff;font-size:1em}
 #contenedor #lateral #boletin a:hover{color:#2c8cf7;transition:1s}
 #contenedor #lateral #boletin .formulario{display:none}
+#contenedor #lateral #virtual{background:#f00;display:inline-block;height:auto;position:relative;width:100%;}
+#contenedor #lateral #virtual h2{color:#fff;float:left;font-size:.8em}
 #contenedor #pie{background:#000;display:inline-block;width:100%;}
 #contenedor #pie h2{color:#fff;font-size:1em}
 #contenedor #pie #enlaces{display:inline-block;font-size:1.1em;width:80%;}
@@ -50,6 +56,8 @@ body header #logo{height:140px;width:100%}
 body{margin:0 auto;max-width:98%}
 #contenedor h2{font-size:1.4em}
 #contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:70%;}
+#contenedor #izquierda #directo{width:90%;}
+#contenedor #izquierda #directo #video{width:60%}
 #contenedor #izquierda #convocatorias{float:left;width:47%}
 #contenedor #izquierda #noticias,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{width:47%}
 #contenedor #izquierda #noticias{float:right}
