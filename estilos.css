@@ -42,6 +42,7 @@ body header #logo{height:140px;width:100%}
 #contenedor #lateral #redes{background:#c5c6c6;display:inline-block;text-align:left;padding:0 .3em;postion:absolute;verticlal-align:top;width:100%;}
 #contenedor #lateral #redes #text{font-size:.6em}
 #contenedor #lateral #redes .sociales{display:block;padding:.3em;width:40%}
+#contenedor #lateral #twitter{display:none}
 #contenedor #lateral #boletin{display:inline-block;text-align:left;padding:.1em;width:100%;}
 #contenedor #lateral #boletin p{font-size:1em}
 #contenedor #lateral #boletin a{color:#fff;font-size:1em}
@@ -82,8 +83,10 @@ margin 0px{padding:0}
 #contenedor #lateral #nav ul a{color:#ccc;font-size:1em}
 #contenedor #lateral #nav ul a:hover{background:#000;border-left:10px solid #333;color:#fff;display:inline-block;text-transform-right:1s}
 #contenedor #lateral #redes #text{font-size:.7em}
+#contenedor #lateral #twitter{display:inline-block;width:90%;}
+#contenedor #lateral #twitter #chat{box-shadow:0 0 0 3px rgba(0,0,0,0.3);width:90%}
 #contenedor #lateral #redes .sociales{display:inline-block;padding:.5em;margin-top:.4em;vertical-align:top;width:15%}
-#contenedor #lateral #boletin{display:inline-block;text-align:center}
+#contenedor #lateral #boletin{display:inline-block;margin-top:1em;text-align:center}
 #contenedor #lateral #boletin a{display:none}
 #contenedor #lateral #boletin .formulario{display:inline-block;margin-top:-1em}
 }

@@ -47,6 +47,7 @@ body header #logo{height:140px;width:100%}
 #contenedor #pie #enlaces a:hover{color:#ff0;text-shadow:0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0}
 @media screen and (min-width:768px){&{text-decoration:none;text-transform:uppercase;text-align:left;display:inline-block;padding:10px 10px 10px 20px}
 body{margin:0 auto;max-width:98%}
+#navegador{border-radius:50%;box-shadow:4px 0 15px rgba(0,0,0,0.9);float:left;height:40px;width:34%}
 #contenedor h2{font-size:1.4em}
 #contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:70%;}
 #contenedor #izquierda #convocatorias{width:47%}
