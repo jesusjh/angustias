@@ -13,21 +13,21 @@ body header #logo{height:140px;width:100%}
 #navegador a:hover{color:#ff0;text-shadow:0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0,0 0 20px #0f0}
 #contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
 #contenedor #izquierda{display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:70%;}
-#contenedor #izquierda #convocatorias{background:#808080;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:80%}
-#contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria,#contenedor #izquierda #directo{background:#808080;display:inline-block;margin:.3em;padding:.1em;postion:absolute;width:90%;}
-#contenedor #izquierda #noticias .slider,#contenedor #izquierda #cronicas .slider,#contenedor #izquierda #calendario .slider,#contenedor #izquierda #galeria .slider,#contenedor #izquierda #directo .slider{width:100%;margin:0 auto}
-#contenedor #izquierda #noticias .slider div.images,#contenedor #izquierda #cronicas .slider div.images,#contenedor #izquierda #calendario .slider div.images,#contenedor #izquierda #galeria .slider div.images,#contenedor #izquierda #directo .slider div.images{position:relative;width:100%;height:300px;overflow:hidden}
-#contenedor #izquierda #noticias .slider div.images div .img,#contenedor #izquierda #cronicas .slider div.images div .img,#contenedor #izquierda #calendario .slider div.images div .img,#contenedor #izquierda #galeria .slider div.images div .img,#contenedor #izquierda #directo .slider div.images div .img{width:100%}
-#contenedor #izquierda #noticias .slider div.images div,#contenedor #izquierda #cronicas .slider div.images div,#contenedor #izquierda #calendario .slider div.images div,#contenedor #izquierda #galeria .slider div.images div,#contenedor #izquierda #directo .slider div.images div{position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background:#000;z-index:1}
-#contenedor #izquierda #noticias .slider div.images div img,#contenedor #izquierda #cronicas .slider div.images div img,#contenedor #izquierda #calendario .slider div.images div img,#contenedor #izquierda #galeria .slider div.images div img,#contenedor #izquierda #directo .slider div.images div img{display:block;width:100%;height:100%}
-#contenedor #izquierda #noticias .slider div.images div.active,#contenedor #izquierda #cronicas .slider div.images div.active,#contenedor #izquierda #calendario .slider div.images div.active,#contenedor #izquierda #galeria .slider div.images div.active,#contenedor #izquierda #directo .slider div.images div.active{z-index:2}
-#contenedor #izquierda #noticias .slider div.images div.animate,#contenedor #izquierda #cronicas .slider div.images div.animate,#contenedor #izquierda #calendario .slider div.images div.animate,#contenedor #izquierda #galeria .slider div.images div.animate,#contenedor #izquierda #directo .slider div.images div.animate{transition:left 400ms;-moz-transition:left 400ms;-webkit-transition:left 400ms;-ms-transition:left 400ms;-o-transition:left 400ms;z-index:2}
-#contenedor #izquierda #noticias .slider div.images div.next,#contenedor #izquierda #cronicas .slider div.images div.next,#contenedor #izquierda #calendario .slider div.images div.next,#contenedor #izquierda #galeria .slider div.images div.next,#contenedor #izquierda #directo .slider div.images div.next{left:100%}
-#contenedor #izquierda #noticias .slider div.images div.prev,#contenedor #izquierda #cronicas .slider div.images div.prev,#contenedor #izquierda #calendario .slider div.images div.prev,#contenedor #izquierda #galeria .slider div.images div.prev,#contenedor #izquierda #directo .slider div.images div.prev{left:-100%}
-#contenedor #izquierda #noticias .slider div.images div.center,#contenedor #izquierda #cronicas .slider div.images div.center,#contenedor #izquierda #calendario .slider div.images div.center,#contenedor #izquierda #galeria .slider div.images div.center,#contenedor #izquierda #directo .slider div.images div.center{left:0}
-#contenedor #izquierda #noticias .slider div.actions,#contenedor #izquierda #cronicas .slider div.actions,#contenedor #izquierda #calendario .slider div.actions,#contenedor #izquierda #galeria .slider div.actions,#contenedor #izquierda #directo .slider div.actions{text-align:center;padding:5px 0}
-#contenedor #izquierda #noticias .slider div.actions a,#contenedor #izquierda #cronicas .slider div.actions a,#contenedor #izquierda #calendario .slider div.actions a,#contenedor #izquierda #galeria .slider div.actions a,#contenedor #izquierda #directo .slider div.actions a{display:inline-block;margin:0 5px;outline:none;border:#ccc solid 1px;border-radius:5px;font-size:10px;color:#333;line-height:100%;text-decoration:none;padding:4px 10px;transition:background-color 500ms;-moz-transition:background-color 500ms;-webkit-transition:background-color 500ms;-ms-transition:background-color 500ms;-o-transition:background-color 500ms}
-#contenedor #izquierda #noticias .slider div.actions a:hover,#contenedor #izquierda #cronicas .slider div.actions a:hover,#contenedor #izquierda #calendario .slider div.actions a:hover,#contenedor #izquierda #galeria .slider div.actions a:hover,#contenedor #izquierda #directo .slider div.actions a:hover{background:#ccc}
+#contenedor #izquierda #cronicas{color:#000;display:inline-block;width:100%;}
+#contenedor #izquierda #cronicas .item{display:inline-block;width:90%}
+#contenedor #izquierda #cronicas .slider{width:100%;margin:0 auto}
+#contenedor #izquierda #cronicas .slider div.images{position:relative;width:100%;height:300px;overflow:hidden}
+#contenedor #izquierda #cronicas .slider div.images div .img{width:100%}
+#contenedor #izquierda #cronicas .slider div.images div{position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background:#000;z-index:1}
+#contenedor #izquierda #cronicas .slider div.images div img{display:block;width:100%;height:100%}
+#contenedor #izquierda #cronicas .slider div.images div.active{z-index:2}
+#contenedor #izquierda #cronicas .slider div.images div.animate{transition:left 400ms;-moz-transition:left 400ms;-webkit-transition:left 400ms;-ms-transition:left 400ms;-o-transition:left 400ms;z-index:2}
+#contenedor #izquierda #cronicas .slider div.images div.next{left:100%}
+#contenedor #izquierda #cronicas .slider div.images div.prev{left:-100%}
+#contenedor #izquierda #cronicas .slider div.images div.center{left:0}
+#contenedor #izquierda #cronicas .slider div.actions{text-align:center;padding:5px 0}
+#contenedor #izquierda #cronicas .slider div.actions a{display:inline-block;margin:0 5px;outline:none;border:#ccc solid 1px;border-radius:5px;font-size:10px;color:#333;line-height:100%;text-decoration:none;padding:4px 10px;transition:background-color 500ms;-moz-transition:background-color 500ms;-webkit-transition:background-color 500ms;-ms-transition:background-color 500ms;-o-transition:background-color 500ms}
+#contenedor #izquierda #cronicas .slider div.actions a:hover{background:#ccc}
 #contenedor #lateral{background:#c5c6c6;display:inline-block;float:right;postion:relative;text-decoration:none;width:25%;}
 #contenedor #lateral #nav{display:inline-block;width:100%;}
 #contenedor #lateral #nav ul{display:inline-block;text-align:left;}
@@ -49,11 +49,11 @@ body header #logo{height:140px;width:100%}
 body{margin:0 auto;max-width:98%}
 #contenedor h2{font-size:1.4em}
 #contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:70%;}
-#contenedor #izquierda #convocatorias{width:47%}
-#contenedor #izquierda #noticias,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{width:47%}
-#contenedor #izquierda #noticias{float:right}
-#contenedor #izquierda #cronicas{width:100%}
-#contenedor #izquierda #directo{width:100%}
+#contenedor #izquierda #cronicas{width:100%;}
+#contenedor #izquierda #cronicas .item{float:left;padding:.4em;position:relative;width:45%;}
+#contenedor #izquierda #cronicas .item .estilos{background:#808080;color:#fff}
+#contenedor #izquierda #cronicas .item-cronicas{float:right;padding:.4em;position:relative;width:45%;}
+#contenedor #izquierda #cronicas .item-cronicas .estilos{background:#808080;color:#fff}
 #contenedor #lateral #nav{list-style-type:none}
 margin 0px{padding:0}
 #contenedor #lateral #nav{padding:.3em}

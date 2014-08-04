@@ -63,8 +63,19 @@ body
 .top-bar .title-area
 	background #6d5bc2
 
+	#name
+		border-radius 10px
+
 #navegador
 	background #6d5bc2
+
+	#logo
+		border-radius 50%
+		box-shadow 4px 0px 15px rgba(0,0,0,0.9)
+		float left
+		height 40px
+		width 34%
+
 #navegador a 
 	font-family "Lobster", Arial
 
@@ -95,7 +106,7 @@ body
 		float left
 		margin 0em 0.3em
 		verticlal-align top
-		width 80%
+		width 75%
 
 		#directo
 			width 90%
@@ -108,14 +119,17 @@ body
 			font-weight normal
 			margin 0.3em
 			postion absolute
-			width 80%
+			width 90%
 
 			h2
+				background grey
 				border-bottom 1px solid black
+				color white
 				text-align left
-				width 50%
+				width 100%
 
 		#noticias, #cronicas, #calendario, #galeria, #directo
+			color black
 			display inline-block
 			margin 0.3em
 			padding 0.1em
@@ -123,10 +137,12 @@ body
 			width 90%
 
 			h2
+				background grey
 				border-bottom 1px solid black
+				color white
 				text-align left
 				float left
-				width 50%
+				width 100%
 
 			#item-calendario
 				width 90%
@@ -210,10 +226,11 @@ body
 		float right
 		postion relative
 		text-decoration none
-		width 20%
+		width 21%
 
 		#nav 
 			display inline-block
+			position relative
 			width 100%
 
 			ul
@@ -222,7 +239,8 @@ body
 
 				a 
 					font-family "Lobster", Arial
-					font-size 0.2em
+					font-size 0.5em
+					float le
 
 		#redes
 			background #c5c6c6
@@ -232,18 +250,23 @@ body
 			postion absolute
 			verticlal-align top
 			width 100%
+
 			#text
 				font-size 0.6em
 
 			.sociales
-				display inline-block
+				display block
 				padding 0.3em
-				width 30%
+				width 40%
 
 		#boletin
 			display inline-block
-			padding 0.3em
+			text-align left
+			padding 0.1em
 			width 100%
+
+			p 
+				font-size 1.0em
 
 			a 
 				color white
@@ -274,6 +297,7 @@ body
 	#pie
 		background black
 		display inline-block
+		
 		width 100%
 
 		h2
