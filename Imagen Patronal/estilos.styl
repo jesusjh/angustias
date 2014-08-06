@@ -63,8 +63,19 @@ body
 .top-bar .title-area
 	background #6d5bc2
 
+	#name
+		border-radius 10px
+
 #navegador
 	background #6d5bc2
+
+	#logo
+		border-radius 50%
+		box-shadow 4px 0px 15px rgba(0,0,0,0.9)
+		float left
+		height 40px
+		width 34%
+
 #navegador a 
 	font-family "Lobster", Arial
 
@@ -83,34 +94,58 @@ body
 					0px 0px 20px rgba(0,255,0,1);
 
 #contenedor
-	background white
+	background grey
 	display inline-block
 	postion relativen
 	width 98%
 		
 
 	#izquierda
+		background white
 		display inline-block
 		float left
 		margin 0em 0.3em
 		verticlal-align top
-		width 70%
+		width 75%
+
+		#directo
+			width 90%
+
+			#video
+				width 100%
 
 		#convocatorias
-			background grey
 			display inline-block
 			font-weight normal
 			margin 0.3em
 			postion absolute
-			width 80%
+			width 90%
+
+			h2
+				background grey
+				border-bottom 1px solid black
+				color white
+				text-align left
+				width 100%
 
 		#noticias, #cronicas, #calendario, #galeria, #directo
-			background grey
+			color black
 			display inline-block
 			margin 0.3em
 			padding 0.1em
 			postion absolute
 			width 90%
+
+			h2
+				background grey
+				border-bottom 1px solid black
+				color white
+				text-align left
+				float left
+				width 100%
+
+			#item-calendario
+				width 90%
 
 			.slider {
 				width: 100%;
@@ -191,10 +226,11 @@ body
 		float right
 		postion relative
 		text-decoration none
-		width 25%
+		width 21%
 
 		#nav 
 			display inline-block
+			position relative
 			width 100%
 
 			ul
@@ -203,7 +239,8 @@ body
 
 				a 
 					font-family "Lobster", Arial
-					font-size 0.2em
+					font-size 0.5em
+					float le
 
 		#redes
 			background #c5c6c6
@@ -213,18 +250,26 @@ body
 			postion absolute
 			verticlal-align top
 			width 100%
+
 			#text
 				font-size 0.6em
 
-			.sociales
-				display inline-block
-				padding 0.3em
-				width 30%
+				.sociales
+					display block
+					padding 0.3em
+					width 100%
+
+		#twitter 
+			display none
 
 		#boletin
 			display inline-block
-			padding 0.3em
+			text-align left
+			padding 0.1em
 			width 100%
+
+			p 
+				font-size 1.0em
 
 			a 
 				color white
@@ -237,10 +282,25 @@ body
 			.formulario
 				display none
 
+		#virtual
+			background red
+			display inline-block
+			height auto
+			position relative
+			width 100%
+
+			
+
+			h2
+				color white
+				float left
+				font-size 0.8em
+
 
 	#pie
 		background black
 		display inline-block
+		
 		width 100%
 
 		h2
