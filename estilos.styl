@@ -74,7 +74,7 @@ body
 		box-shadow 4px 0px 15px rgba(0,0,0,0.9)
 		float left
 		height 40px
-		width 34%
+		width 10%
 
 #navegador a 
 	font-family "Lobster", Arial
@@ -111,10 +111,15 @@ body
 		#directo
 			width 90%
 
-			#video
+			a 
+				color black
+
+			#tg7
+				height auto
 				width 100%
 
 		#convocatorias
+			color black
 			display inline-block
 			font-weight normal
 			margin 0.3em
@@ -171,6 +176,8 @@ body
 				z-index: 1;
 			}
 			.slider div.images div img {
+				border-radius 50%
+				box-shadow 0px 0px 0px 3px rgba(0,0,0,0.4)
 				display: block;
 				width: 100%;
 				height: 100%;
@@ -179,11 +186,11 @@ body
 				z-index: 2;
 			}
 			.slider div.images div.animate {
-				transition: left 400ms;
-				-moz-transition: left 400ms;
-				-webkit-transition: left 400ms;
-				-ms-transition: left 400ms;
-				-o-transition: left 400ms;
+				transition: left 1s;
+				-moz-transition: left 1s;
+				-webkit-transition: left 1s;
+				-ms-transition: left 1s;
+				-o-transition: left 1s;
 				z-index: 2;
 			}
 			.slider div.images div.next {
@@ -210,7 +217,8 @@ body
 				line-height: 100%;
 				text-decoration: none;
 				padding: 4px 10px;
-				transition: background-color 500ms;
+				border-radius 50%
+				transition: background-color 2s;
 				-moz-transition: background-color 500ms;
 				-webkit-transition: background-color 500ms;
 				-ms-transition: background-color 500ms;
