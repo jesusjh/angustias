@@ -15,6 +15,7 @@ body header #logo{width:100%}
 #navegador a:hover{color:#ff0;transition:3s;text-shadow:0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02}
 #contenedor{background:#808080;display:inline-block;postion:relativen;width:98%;}
 #contenedor #izquierda{background:#fff;display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:75%;}
+#contenedor #izquierda #presentacion{color:#000;display:inline-block;text-align:left;width:95%}
 #contenedor #izquierda #directo{width:90%;}
 #contenedor #izquierda #directo a{color:#000}
 #contenedor #izquierda #directo #tg7{height:auto;width:100%}
