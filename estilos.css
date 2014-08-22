@@ -61,8 +61,11 @@ body header #logo{width:100%}
 #contenedor #lateral #boletin a{color:#fff;font-size:1em}
 #contenedor #lateral #boletin a:hover{color:#2c8cf7;transition:1s}
 #contenedor #lateral #boletin .formulario{display:none}
-#contenedor #lateral #virtual{background:#f00;display:inline-block;height:auto;margin-top:1em;position:relative;width:100%;}
+#contenedor #lateral #virtual{display:inline-block;height:auto;margin-top:1em;position:relative;width:100%;}
+#contenedor #lateral #virtual h2{color:#fff;font-size:1.1em}
 #contenedor #lateral #virtual #tienda{height:auto;width:99%}
+#contenedor #lateral #worpres{background:#f00;display:inline-block;margin-top:.7em;position:relative;width:90%;}
+#contenedor #lateral #worpres #wor{width:100%}
 #contenedor #pie{background:#000;display:inline-block;width:100%;}
 #contenedor #pie h2{color:#fff;font-size:1em}
 #contenedor #pie #enlaces{display:inline-block;font-size:1.1em;width:80%;}
