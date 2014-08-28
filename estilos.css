@@ -13,11 +13,12 @@ body header #logo{width:100%}
 #navegador #logo{border-radius:50%;box-shadow:4px 0 15px rgba(0,0,0,0.9);float:left;height:40px;width:10%}
 #navegador a{font-family:"Lobster",Arial}
 #navegador a:hover{color:#ff0;transition:3s;text-shadow:0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02}
-#contenedor{background:#808080;display:inline-block;postion:relativen;width:98%;}
+#contenedor{background:#fff;display:inline-block;postion:relative;width:98%;}
 #contenedor #izquierda{background:#fff;display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:75%;}
 #contenedor #izquierda #presentacion{color:#000;display:inline-block;text-align:left;width:95%}
 #contenedor #izquierda #directo{width:90%;}
-#contenedor #izquierda #directo a{color:#000}
+#contenedor #izquierda #directo a{color:#00f6ff;font-size:1em;font-weight:bold}
+#contenedor #izquierda #directo a:hover{font-size:1.2em;padding-left:1em;transition:1s;text-shadow:0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02}
 #contenedor #izquierda #directo #tg7{height:auto;width:100%}
 #contenedor #izquierda #convocatorias{color:#000;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:90%;}
 #contenedor #izquierda #convocatorias h2{background:#808080;border-bottom:1px solid #000;color:#fff;text-align:left;width:100%}
@@ -67,7 +68,7 @@ body header #logo{width:100%}
 #contenedor #lateral #virtual #tienda{height:auto;width:99%}
 #contenedor #lateral #worpres{background:#f00;display:inline-block;margin-top:.7em;position:relative;width:90%;}
 #contenedor #lateral #worpres #wor{width:100%}
-#contenedor #pie{background:#000;display:inline-block;width:100%;}
+#contenedor #pie{background:#000;display:inline-block;padding-top:1em;position:relative;width:100%;}
 #contenedor #pie h2{color:#fff;font-size:1em}
 #contenedor #pie #enlaces{display:inline-block;font-size:1.1em;width:80%;}
 #contenedor #pie #enlaces h3{border-bottom:1px solid #fff;font-size:1em;color:#fff;text-align:left;left:0;width:90%}
