@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="PhotoOnWeb 0.9.1.0">
+<meta http-equiv="Pragma" content="no-cache">
+<!-- No cache for Navigator -->
+<meta http-equiv="expires" content="0">
+<!-- No cache for IE -->
+
+
+<title>albun de fotos - Personalized photo album in html with PhotoOnWeb by VSO</title>
+<meta name="description" content="&nbsp Personalized photo album in html with PhotoOnWeb by VSO">
+<meta name="Keywords" content="albun de fotos, &nbsp, personalized, photo, album, html, gallery" />
+
+
+<script type="text/javascript" src="flashobject.js"></script>
+
+<SCRIPT LANGUAGE="JavaScript">
+//Maximize the browser
+window.moveTo(0,0);
+if (document.getElementById || document.all) 
+{
+  window.resizeTo(screen.availWidth, screen.availHeight);
+}
+else if (document.layers) 
+{
+  if (window.outerHeight<screen.availHeight || window.outerWidth<screen.availWidth)
+  {
+    window.outerHeight = screen.availHeight;
+    window.outerWidth = screen.availWidth;
+  }
+}
+</SCRIPT>
+
+<style type="text/css">	
+	/* hide from ie on mac \*/
+	H1 {	padding:0; margin:0}
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	/* end hide */
+	#copyright {
+		height: 21px;
+		background:repeat-y;
+	}
+	#header, #footer, #flashcontent, #copyright, a {
+		color:#FFFFFF;
+		font-size: 10px;
+		text-decoration: none;
+	}	
+	a:hover{
+		color: grey;
+		font-size: 1em;
+	}
+	#flashcontent {height: 100%;}	body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	background: #000 url(graphics/body.gif) no-repeat center bottom;
+	}
+</style>
+</head>
+<body>
+
+
+
+<table width="90%" height="96%" border="0" align="center" cellpadding="0" cellspacing="0" id="content">
+  <tr align="center">
+    <td align="left" id="header"><a href="../index.html" id="navegador"><h1>Volver</h1></a></td>
+  </tr>
+  
+  <tr>
+    <td align="center"  id="flashcontent"> 
+    	<a href="http://www.macromedia.com/go/getflashplayer/"></a> 
+    	<a href="index.php?detectflash=false"></a>
+	
+	<script type="text/javascript">
+		var fo = new FlashObject("viewer.swf", "viewer", "100%", "100%", "6", "");// "fichier", "nom", "hauteur", "largeur", "version", "couleur fond"
+		fo.addVariable("preloaderColor", "0xFFFFFF");	/* couleur du texte du préchargement */	
+		fo.addParam("quality", "best");
+		fo.addParam("wmode", "transparent");/* affiche un fond transparent au flash */
+		fo.write("flashcontent");	
+	</script>
+		
+	<noscript>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="90%" height="100%" wmode="transparent">
+			<param name="movie" value="viewer.swf">
+			<param name="quality" value="best">
+			<param name="wmode" value="transparent">
+			<embed src="viewer.swf" quality="best" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="100%">
+			</embed>
+		</object>
+	</noscript>
+		
+	</td>
+  </tr>
+  <tr align="right">
+    <td align="left" id="footer"><p>&nbsp</p></td>
+    
+  </tr>
+</table>
+
+</body>
+</html>
