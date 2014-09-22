@@ -13,30 +13,26 @@ body header #logo{width:100%}
 #navegador #logo{border-radius:50%;box-shadow:4px 0 15px rgba(0,0,0,0.9);float:left;height:40px;width:10%}
 #navegador a{font-family:"Lobster",Arial}
 #navegador a:hover{color:#ff0;transition:3s;text-shadow:0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02,0 0 3px #00ff02}
-#contenedor{background:#808080;display:inline-block;postion:relativen;width:98%;}
+#contenedor{background:#fff;display:inline-block;postion:relativen;width:98%;}
 #contenedor #izquierda{background:#fff;display:inline-block;float:left;margin:0 .3em;verticlal-align:top;width:75%;}
-#contenedor #izquierda #presentacion{color:#000;display:inline-block;text-align:left;width:95%}
-#contenedor #izquierda #directo{width:90%;}
-#contenedor #izquierda #directo a{color:#000}
-#contenedor #izquierda #directo #tg7{height:auto;width:100%}
-#contenedor #izquierda #convocatorias{color:#000;display:inline-block;font-weight:normal;margin:.3em;postion:absolute;width:90%;}
-#contenedor #izquierda #convocatorias h2{background:#808080;border-bottom:1px solid #000;color:#fff;text-align:left;width:100%}
-#contenedor #izquierda #noticias,#contenedor #izquierda #cronicas,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria,#contenedor #izquierda #directo{color:#000;display:inline-block;margin:.3em;padding:.1em;postion:absolute;width:90%;}
-#contenedor #izquierda #noticias h2,#contenedor #izquierda #cronicas h2,#contenedor #izquierda #calendario h2,#contenedor #izquierda #galeria h2,#contenedor #izquierda #directo h2{background:#808080;border-bottom:1px solid #000;color:#fff;text-align:left;float:left;width:100%}
-#contenedor #izquierda #noticias #item-calendario,#contenedor #izquierda #cronicas #item-calendario,#contenedor #izquierda #calendario #item-calendario,#contenedor #izquierda #galeria #item-calendario,#contenedor #izquierda #directo #item-calendario{width:90%}
-#contenedor #izquierda #noticias .slider,#contenedor #izquierda #cronicas .slider,#contenedor #izquierda #calendario .slider,#contenedor #izquierda #galeria .slider,#contenedor #izquierda #directo .slider{width:100%;margin:0 auto}
-#contenedor #izquierda #noticias .slider div.images,#contenedor #izquierda #cronicas .slider div.images,#contenedor #izquierda #calendario .slider div.images,#contenedor #izquierda #galeria .slider div.images,#contenedor #izquierda #directo .slider div.images{position:relative;width:85%;height:300px;overflow:hidden}
-#contenedor #izquierda #noticias .slider div.images div .img,#contenedor #izquierda #cronicas .slider div.images div .img,#contenedor #izquierda #calendario .slider div.images div .img,#contenedor #izquierda #galeria .slider div.images div .img,#contenedor #izquierda #directo .slider div.images div .img{width:100%}
-#contenedor #izquierda #noticias .slider div.images div,#contenedor #izquierda #cronicas .slider div.images div,#contenedor #izquierda #calendario .slider div.images div,#contenedor #izquierda #galeria .slider div.images div,#contenedor #izquierda #directo .slider div.images div{position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;z-index:1}
-#contenedor #izquierda #noticias .slider div.images div img,#contenedor #izquierda #cronicas .slider div.images div img,#contenedor #izquierda #calendario .slider div.images div img,#contenedor #izquierda #galeria .slider div.images div img,#contenedor #izquierda #directo .slider div.images div img{border-radius:50%;box-shadow:0 0 0 3px rgba(0,0,0,0.4);display:block;width:100%;height:100%}
-#contenedor #izquierda #noticias .slider div.images div.active,#contenedor #izquierda #cronicas .slider div.images div.active,#contenedor #izquierda #calendario .slider div.images div.active,#contenedor #izquierda #galeria .slider div.images div.active,#contenedor #izquierda #directo .slider div.images div.active{z-index:2}
-#contenedor #izquierda #noticias .slider div.images div.animate,#contenedor #izquierda #cronicas .slider div.images div.animate,#contenedor #izquierda #calendario .slider div.images div.animate,#contenedor #izquierda #galeria .slider div.images div.animate,#contenedor #izquierda #directo .slider div.images div.animate{transition:left 1s;-moz-transition:left 1s;-webkit-transition:left 1s;-ms-transition:left 1s;-o-transition:left 1s;z-index:2}
-#contenedor #izquierda #noticias .slider div.images div.next,#contenedor #izquierda #cronicas .slider div.images div.next,#contenedor #izquierda #calendario .slider div.images div.next,#contenedor #izquierda #galeria .slider div.images div.next,#contenedor #izquierda #directo .slider div.images div.next{left:100%}
-#contenedor #izquierda #noticias .slider div.images div.prev,#contenedor #izquierda #cronicas .slider div.images div.prev,#contenedor #izquierda #calendario .slider div.images div.prev,#contenedor #izquierda #galeria .slider div.images div.prev,#contenedor #izquierda #directo .slider div.images div.prev{left:-100%}
-#contenedor #izquierda #noticias .slider div.images div.center,#contenedor #izquierda #cronicas .slider div.images div.center,#contenedor #izquierda #calendario .slider div.images div.center,#contenedor #izquierda #galeria .slider div.images div.center,#contenedor #izquierda #directo .slider div.images div.center{left:0}
-#contenedor #izquierda #noticias .slider div.actions,#contenedor #izquierda #cronicas .slider div.actions,#contenedor #izquierda #calendario .slider div.actions,#contenedor #izquierda #galeria .slider div.actions,#contenedor #izquierda #directo .slider div.actions{text-align:center;padding:5px 0}
-#contenedor #izquierda #noticias .slider div.actions a,#contenedor #izquierda #cronicas .slider div.actions a,#contenedor #izquierda #calendario .slider div.actions a,#contenedor #izquierda #galeria .slider div.actions a,#contenedor #izquierda #directo .slider div.actions a{display:inline-block;margin:0 5px;outline:none;border:#ccc solid 1px;border-radius:5px;font-size:10px;color:#333;line-height:100%;text-decoration:none;padding:4px 10px;border-radius:50%;transition:background-color 2s;-moz-transition:background-color 500ms;-webkit-transition:background-color 500ms;-ms-transition:background-color 500ms;-o-transition:background-color 500ms}
-#contenedor #izquierda #noticias .slider div.actions a:hover,#contenedor #izquierda #cronicas .slider div.actions a:hover,#contenedor #izquierda #calendario .slider div.actions a:hover,#contenedor #izquierda #galeria .slider div.actions a:hover,#contenedor #izquierda #directo .slider div.actions a:hover{background:#ccc}
+#contenedor #izquierda #presentacion{color:#fff;display:inline-block;font-size:.8em;margin-top:1em;padding-top:2em;text-align:left;width:95%;}
+#contenedor #izquierda #presentacion h2{display:inline-block;font-size:1em;text-align:center;width:100%}
+#contenedor #izquierda #presentacion #avatar{width:100%}
+#contenedor #izquierda #item-junta{color:#000;display:inline-block;margin-top:1em;width:95%;}
+#contenedor #izquierda #item-junta #item-calendario{width:90%}
+#contenedor #izquierda #item-junta .slider{width:100%;margin:0 auto}
+#contenedor #izquierda #item-junta .slider div.images{position:relative;width:85%;height:300px;overflow:hidden}
+#contenedor #izquierda #item-junta .slider div.images div .img{width:100%}
+#contenedor #izquierda #item-junta .slider div.images div{position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;z-index:1}
+#contenedor #izquierda #item-junta .slider div.images div img{border-radius:50%;box-shadow:0 0 0 3px rgba(0,0,0,0.4);display:block;width:100%;height:100%}
+#contenedor #izquierda #item-junta .slider div.images div.active{z-index:2}
+#contenedor #izquierda #item-junta .slider div.images div.animate{transition:left 1s;-moz-transition:left 1s;-webkit-transition:left 1s;-ms-transition:left 1s;-o-transition:left 1s;z-index:2}
+#contenedor #izquierda #item-junta .slider div.images div.next{left:100%}
+#contenedor #izquierda #item-junta .slider div.images div.prev{left:-100%}
+#contenedor #izquierda #item-junta .slider div.images div.center{left:0}
+#contenedor #izquierda #item-junta .slider div.actions{text-align:center;padding:5px 0}
+#contenedor #izquierda #item-junta .slider div.actions a{display:inline-block;margin:0 5px;outline:none;border:#ccc solid 1px;border-radius:5px;font-size:10px;color:#333;line-height:100%;text-decoration:none;padding:4px 10px;border-radius:50%;transition:background-color 2s;-moz-transition:background-color 500ms;-webkit-transition:background-color 500ms;-ms-transition:background-color 500ms;-o-transition:background-color 500ms}
+#contenedor #izquierda #item-junta .slider div.actions a:hover{background:#ccc}
 #contenedor #lateral{background:#c5c6c6;display:inline-block;float:right;postion:relative;text-decoration:none;width:21%;}
 #contenedor #lateral #botones{display:inline-block;font-size:.2em;margin-top:.3em;padding:.2em;position:relative;width:100%;}
 #contenedor #lateral #botones span{font-family:"Lobster",Arial;font-size:.5em}
@@ -77,23 +73,14 @@ body header #logo{width:100%}
 header #logo{box-shadow:0 0 7px 0 rgba(0,0,0,0.8);height:240px}
 #navegador #logo{box-shadow:none;margin:.2em;width:40%}
 #contenedor h2{font-size:1.4em}
-#contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:78%;}
-#contenedor #izquierda #directo{width:90%;}
-#contenedor #izquierda #directo #tg7{height:340px;width:100%}
-#contenedor #izquierda #convocatorias{float:left;width:47%;}
-#contenedor #izquierda #convocatorias h2{box-shadow:5px 10px 7px rgba(0,0,0,0.5);border-radius:20%}
-#contenedor #izquierda #noticias,#contenedor #izquierda #calendario,#contenedor #izquierda #galeria{width:47%}
-#contenedor #izquierda #noticias{float:right;}
-#contenedor #izquierda #noticias h2{border-radius:20%;box-shadow:5px 10px 7px rgba(0,0,0,0.5)}
-#contenedor #izquierda #galeria{float:right;}
-#contenedor #izquierda #galeria .slider div.images{width:100%}
-#contenedor #izquierda #galeria h2{border-radius:20%;box-shadow:5px 10px 7px rgba(0,0,0,0.5)}
-#contenedor #izquierda #calendario{float:left;}
-#contenedor #izquierda #calendario h2{border-radius:20%;box-shadow:5px 10px 7px rgba(0,0,0,0.5)}
-#contenedor #izquierda #cronicas{width:60%;}
-#contenedor #izquierda #cronicas h2{border-radius:20%;box-shadow:5px 10px 7px rgba(0,0,0,0.5);text-align:center}
-#contenedor #izquierda #directo{width:60%;}
-#contenedor #izquierda #directo h2{border-radius:20%;box-shadow:5px 10px 7px rgba(0,0,0,0.5);text-align:center}
+#contenedor #izquierda{padding:.4em .7em;vertical-align:top;width:78%}
+#contenedor #izquierda #presentacion{padding:.3em;text-align:center}
+#contenedor #izquierda #presentacion h2{font-size:1.8em}
+#contenedor #izquierda #presentacion #avatar{border-radius:30%;display:inline-block;width:80%}
+#contenedor #izquierda #item-junta{color:#000;display:inline-block;padding:.1em;vertical-align:top;width:70%}
+#contenedor #izquierda #item-junta .junta{float:left;font-size:1.1em;padding-left:.6em;padding-top:4em}
+#contenedor #izquierda #item-junta .item-estilo{padding-top:4em;padding-Right:4em}
+#contenedor #izquierda #item-junta .directivos{display:inline-block;margin-top:2em;width:90%}
 #contenedor #lateral{float:right;width:21%}
 #contenedor #lateral #botones{display:inline-block;padding:.3em;width:100%}
 #contenedor #lateral #botones #avata{display:inline-block;position:relative}
